@@ -20,9 +20,9 @@ print("Addition : ", num1+num2,'\n', "subtraction: ",num1-num2,'\n', "multiplica
 
 '''
 #problem 2
-height = [ 6.02, 5.07, 4.7, 12.7]
+height = [ 6.02, 5.07, 4.7, 12.7, 18.9]
 summation = sum(height)
-print("average: ", summation /50)
+print("average: ", summation /5)
 '''
 '''
 #problem 3
@@ -34,7 +34,8 @@ for nums in range(5):
         print(firstNum, "is Greater")
     elif firstnum == secondNum:
             break
-    else: print(secondNum,"is grater")
+    else: 
+        print(secondNum,"is grater")
 '''
 '''
 #problem 4
